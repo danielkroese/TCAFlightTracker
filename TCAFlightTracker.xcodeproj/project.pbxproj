@@ -85,7 +85,6 @@
 				AB5071142DF6C9A900EE4886 /* TCAFlightTracker */,
 				AB5071222DF6C9AB00EE4886 /* TCAFlightTrackerTests */,
 				AB50712C2DF6C9AB00EE4886 /* TCAFlightTrackerUITests */,
-				AB50713F2DF6CA4900EE4886 /* Frameworks */,
 				AB5071132DF6C9A900EE4886 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,13 +97,6 @@
 				AB5071292DF6C9AB00EE4886 /* TCAFlightTrackerUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AB50713F2DF6CA4900EE4886 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

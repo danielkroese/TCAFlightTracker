@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  TCAFlightTracker
-//
-//  Created by Daniël on 09/06/2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
