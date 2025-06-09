@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AB50713E2DF6CA3E00EE4886 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = AB50713D2DF6CA3E00EE4886 /* ComposableArchitecture */; };
+		AB5071432DF6CA5600EE4886 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = AB5071422DF6CA5600EE4886 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AB5071202DF6C9AB00EE4886 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB50713E2DF6CA3E00EE4886 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5071432DF6CA5600EE4886 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,7 @@
 				AB5071142DF6C9A900EE4886 /* TCAFlightTracker */,
 				AB5071222DF6C9AB00EE4886 /* TCAFlightTrackerTests */,
 				AB50712C2DF6C9AB00EE4886 /* TCAFlightTrackerUITests */,
+				AB50713F2DF6CA4900EE4886 /* Frameworks */,
 				AB5071132DF6C9A900EE4886 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +98,13 @@
 				AB5071292DF6C9AB00EE4886 /* TCAFlightTrackerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AB50713F2DF6CA4900EE4886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +127,7 @@
 			);
 			name = TCAFlightTracker;
 			packageProductDependencies = (
+				AB50713D2DF6CA3E00EE4886 /* ComposableArchitecture */,
 			);
 			productName = TCAFlightTracker;
 			productReference = AB5071122DF6C9A900EE4886 /* TCAFlightTracker.app */;
@@ -135,6 +151,7 @@
 			);
 			name = TCAFlightTrackerTests;
 			packageProductDependencies = (
+				AB5071422DF6CA5600EE4886 /* ComposableArchitecture */,
 			);
 			productName = TCAFlightTrackerTests;
 			productReference = AB50711F2DF6C9AB00EE4886 /* TCAFlightTrackerTests.xctest */;
@@ -195,6 +212,9 @@
 			);
 			mainGroup = AB5071092DF6C9A900EE4886;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AB50713C2DF6CA3E00EE4886 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AB5071132DF6C9A900EE4886 /* Products */;
 			projectDirPath = "";
@@ -550,6 +570,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB50713C2DF6CA3E00EE4886 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.20.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB50713D2DF6CA3E00EE4886 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB50713C2DF6CA3E00EE4886 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		AB5071422DF6CA5600EE4886 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB50713C2DF6CA3E00EE4886 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB50710A2DF6C9A900EE4886 /* Project object */;
 }
