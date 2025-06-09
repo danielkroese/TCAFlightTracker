@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AB5071202DF6C9AB00EE4886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB50710A2DF6C9A900EE4886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5071112DF6C9A900EE4886;
+			remoteInfo = TCAFlightTracker;
+		};
+		AB50712A2DF6C9AB00EE4886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB50710A2DF6C9A900EE4886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5071112DF6C9A900EE4886;
+			remoteInfo = TCAFlightTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB5071122DF6C9A900EE4886 /* TCAFlightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAFlightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB50711F2DF6C9AB00EE4886 /* TCAFlightTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAFlightTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5071292DF6C9AB00EE4886 /* TCAFlightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAFlightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB5071142DF6C9A900EE4886 /* TCAFlightTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TCAFlightTracker;
+			sourceTree = "<group>";
+		};
+		AB5071222DF6C9AB00EE4886 /* TCAFlightTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TCAFlightTrackerTests;
+			sourceTree = "<group>";
+		};
+		AB50712C2DF6C9AB00EE4886 /* TCAFlightTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TCAFlightTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB50710F2DF6C9A900EE4886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50711C2DF6C9AB00EE4886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5071262DF6C9AB00EE4886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5071092DF6C9A900EE4886 = {
+			isa = PBXGroup;
+			children = (
+				AB5071142DF6C9A900EE4886 /* TCAFlightTracker */,
+				AB5071222DF6C9AB00EE4886 /* TCAFlightTrackerTests */,
+				AB50712C2DF6C9AB00EE4886 /* TCAFlightTrackerUITests */,
+				AB5071132DF6C9A900EE4886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5071132DF6C9A900EE4886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5071122DF6C9A900EE4886 /* TCAFlightTracker.app */,
+				AB50711F2DF6C9AB00EE4886 /* TCAFlightTrackerTests.xctest */,
+				AB5071292DF6C9AB00EE4886 /* TCAFlightTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5071112DF6C9A900EE4886 /* TCAFlightTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5071332DF6C9AB00EE4886 /* Build configuration list for PBXNativeTarget "TCAFlightTracker" */;
+			buildPhases = (
+				AB50710E2DF6C9A900EE4886 /* Sources */,
+				AB50710F2DF6C9A900EE4886 /* Frameworks */,
+				AB5071102DF6C9A900EE4886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB5071142DF6C9A900EE4886 /* TCAFlightTracker */,
+			);
+			name = TCAFlightTracker;
+			packageProductDependencies = (
+			);
+			productName = TCAFlightTracker;
+			productReference = AB5071122DF6C9A900EE4886 /* TCAFlightTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB50711E2DF6C9AB00EE4886 /* TCAFlightTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5071362DF6C9AB00EE4886 /* Build configuration list for PBXNativeTarget "TCAFlightTrackerTests" */;
+			buildPhases = (
+				AB50711B2DF6C9AB00EE4886 /* Sources */,
+				AB50711C2DF6C9AB00EE4886 /* Frameworks */,
+				AB50711D2DF6C9AB00EE4886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5071212DF6C9AB00EE4886 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB5071222DF6C9AB00EE4886 /* TCAFlightTrackerTests */,
+			);
+			name = TCAFlightTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = TCAFlightTrackerTests;
+			productReference = AB50711F2DF6C9AB00EE4886 /* TCAFlightTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5071282DF6C9AB00EE4886 /* TCAFlightTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5071392DF6C9AB00EE4886 /* Build configuration list for PBXNativeTarget "TCAFlightTrackerUITests" */;
+			buildPhases = (
+				AB5071252DF6C9AB00EE4886 /* Sources */,
+				AB5071262DF6C9AB00EE4886 /* Frameworks */,
+				AB5071272DF6C9AB00EE4886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB50712B2DF6C9AB00EE4886 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB50712C2DF6C9AB00EE4886 /* TCAFlightTrackerUITests */,
+			);
+			name = TCAFlightTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = TCAFlightTrackerUITests;
+			productReference = AB5071292DF6C9AB00EE4886 /* TCAFlightTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB50710A2DF6C9A900EE4886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					AB5071112DF6C9A900EE4886 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					AB50711E2DF6C9AB00EE4886 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AB5071112DF6C9A900EE4886;
+					};
+					AB5071282DF6C9AB00EE4886 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AB5071112DF6C9A900EE4886;
+					};
+				};
+			};
+			buildConfigurationList = AB50710D2DF6C9A900EE4886 /* Build configuration list for PBXProject "TCAFlightTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5071092DF6C9A900EE4886;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AB5071132DF6C9A900EE4886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5071112DF6C9A900EE4886 /* TCAFlightTracker */,
+				AB50711E2DF6C9AB00EE4886 /* TCAFlightTrackerTests */,
+				AB5071282DF6C9AB00EE4886 /* TCAFlightTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5071102DF6C9A900EE4886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50711D2DF6C9AB00EE4886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5071272DF6C9AB00EE4886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB50710E2DF6C9A900EE4886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50711B2DF6C9AB00EE4886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5071252DF6C9AB00EE4886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5071212DF6C9AB00EE4886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5071112DF6C9A900EE4886 /* TCAFlightTracker */;
+			targetProxy = AB5071202DF6C9AB00EE4886 /* PBXContainerItemProxy */;
+		};
+		AB50712B2DF6C9AB00EE4886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5071112DF6C9A900EE4886 /* TCAFlightTracker */;
+			targetProxy = AB50712A2DF6C9AB00EE4886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB5071312DF6C9AB00EE4886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5071322DF6C9AB00EE4886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5071342DF6C9AB00EE4886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.danielkroese.TCAFlightTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5071352DF6C9AB00EE4886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.danielkroese.TCAFlightTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB5071372DF6C9AB00EE4886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.danielkroese.TCAFlightTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCAFlightTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCAFlightTracker";
+			};
+			name = Debug;
+		};
+		AB5071382DF6C9AB00EE4886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.danielkroese.TCAFlightTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCAFlightTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCAFlightTracker";
+			};
+			name = Release;
+		};
+		AB50713A2DF6C9AB00EE4886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.danielkroese.TCAFlightTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCAFlightTracker;
+			};
+			name = Debug;
+		};
+		AB50713B2DF6C9AB00EE4886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.danielkroese.TCAFlightTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCAFlightTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB50710D2DF6C9A900EE4886 /* Build configuration list for PBXProject "TCAFlightTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5071312DF6C9AB00EE4886 /* Debug */,
+				AB5071322DF6C9AB00EE4886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5071332DF6C9AB00EE4886 /* Build configuration list for PBXNativeTarget "TCAFlightTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5071342DF6C9AB00EE4886 /* Debug */,
+				AB5071352DF6C9AB00EE4886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5071362DF6C9AB00EE4886 /* Build configuration list for PBXNativeTarget "TCAFlightTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5071372DF6C9AB00EE4886 /* Debug */,
+				AB5071382DF6C9AB00EE4886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5071392DF6C9AB00EE4886 /* Build configuration list for PBXNativeTarget "TCAFlightTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50713A2DF6C9AB00EE4886 /* Debug */,
+				AB50713B2DF6C9AB00EE4886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB50710A2DF6C9A900EE4886 /* Project object */;
+}
