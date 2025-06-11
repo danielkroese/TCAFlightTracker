@@ -2,29 +2,43 @@ import ComposableArchitecture
 import SwiftUI
 
 struct AppView: View {
-    let store: StoreOf<AppFeature>
+    @Bindable var store: StoreOf<AppFeature>
     
     var body: some View {
-        TabView {
-            Tab("Map", systemImage: "map") {
+        TabView(selection: $store.selectedTab.sending(\.selectTab)) {
+            Tab("Map", systemImage: "map", value: .map) {
                 MapView(
                     store: store.scope(state: \.map, action: \.map)
                 )
             }
             
-            Tab("My Flights", systemImage: "airplane") {
-                FlightListView(
-                    store: store.scope(state: \.myFlights, action: \.myFlights)
-                )
+            Tab("My Flights", systemImage: "airplane", value: .myFlights) {
+                NavigationStack {
+                    FlightListView(
+                        store: store.scope(state: \.myFlights, action: \.myFlights)
+                    )
+                    .navigationTitle("My Flights")
+                }
             }
             
-            Tab("Search", systemImage: "magnifyingglass", role: .search) {
-                Text("Search")
+            Tab("Search", systemImage: "magnifyingglass", value: .search, role: .search) {
+                NavigationStack {
+                    Text("Search")
+                        .navigationTitle("Search")
+                }
             }
         }
         .tabViewStyle(.sidebarAdaptable)
         .tabViewBottomAccessoryCompat(true) {
-            Text("Your current flight")
+            Button {
+                store.send(.tabViewBottomAccessoryTapped)
+            } label: {
+                HStack {
+                    Image(systemName: "airplane")
+                    
+                    Text("Your upcoming flight")
+                }
+            }
         }
     }
 }
@@ -44,7 +58,7 @@ extension View {
                 content()
             }
         } else {
-            content()
+            self
         }
     }
 }

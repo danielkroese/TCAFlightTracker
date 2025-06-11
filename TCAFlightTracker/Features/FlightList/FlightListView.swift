@@ -12,6 +12,8 @@ struct FlightListView: View {
                 Text(flight.designator)
             }
         }
+        .listStyle(.plain)
+        .listRowSeparator(.hidden)
         .sheet(item: $store.scope(state: \.destination?.openDetails, action: \.destination.openDetails)) { store in
             NavigationStack {
                 FlightDetailsView(store: store)
