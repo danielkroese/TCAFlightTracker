@@ -12,13 +12,20 @@ struct AppView: View {
                 )
             }
             
-            Tab("My Flights", systemImage: "airplane.circle") {
+            Tab("My Flights", systemImage: "airplane") {
                 FlightListView(
                     store: store.scope(state: \.myFlights, action: \.myFlights)
                 )
             }
+            
+            Tab("Search", systemImage: "magnifyingglass", role: .search) {
+                Text("Search")
+            }
         }
         .tabViewStyle(.sidebarAdaptable)
+        .tabViewBottomAccessoryCompat(true) {
+            Text("Your current flight")
+        }
     }
 }
 
@@ -28,4 +35,16 @@ struct AppView: View {
       AppFeature()
     }
   )
+}
+
+extension View {
+    @ViewBuilder func tabViewBottomAccessoryCompat<Content: View>(_ isVisible: Bool, content: () -> Content) -> some View {
+        if isVisible, #available(iOS 26, *) {
+            self.tabViewBottomAccessory {
+                content()
+            }
+        } else {
+            content()
+        }
+    }
 }
