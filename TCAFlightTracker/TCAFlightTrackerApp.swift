@@ -1,10 +1,19 @@
+import ComposableArchitecture
 import SwiftUI
 
 @main
-struct TCAFlightTrackerApp: App {
+struct FlightTrackerApp: App {
+    enum Dependencies {
+        @MainActor
+        static let store = Store(initialState: AppFeature.State()) {
+            AppFeature()
+                ._printChanges()
+        }
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView(store: Dependencies.store)
         }
     }
 }

@@ -1,3 +1,3 @@
-struct Aircraft {
+struct Aircraft: Equatable, Hashable {
     
 }

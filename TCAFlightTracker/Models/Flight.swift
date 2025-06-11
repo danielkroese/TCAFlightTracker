@@ -1,6 +1,6 @@
 import Foundation
 
-struct Flight {
+struct Flight: Equatable, Identifiable, Hashable {
     let id: String
     let lastUpdated: Date
     
@@ -16,13 +16,13 @@ struct Flight {
     let departureAirport: Airport
     let arrivalAirport: Airport
     
-    struct Info {
+    struct Info: Equatable, Hashable {
         let scheduled: Date
         let expected: Date?
         let actual: Date?
         let state: State
         
-        enum State {
+        enum State: Equatable, Hashable {
             case scheduled
             case onTime
             case delayed(Duration)
