@@ -8,7 +8,10 @@ enum MockData {
                 lastUpdated: .now,
                 designator: "KL 123",
                 codeShares: [],
-                aircraft: Aircraft(),
+                aircraft: Aircraft(
+                    type: "Big one",
+                    registration: "PH-ABC"
+                ),
                 airline: Airline(
                     designator: "KL",
                     name: "KLM"

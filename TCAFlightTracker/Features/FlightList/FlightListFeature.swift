@@ -11,6 +11,8 @@ struct FlightListFeature {
     }
     
     enum Action {
+        case updateFlights
+        case flightsUpdated(Set<Flight>)
         case flightTapped(Flight)
         case openDetails(Flight, isTracked: Bool)
         case destination(PresentationAction<Destination.Action>)
@@ -27,6 +29,16 @@ struct FlightListFeature {
     var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
+            case .updateFlights:
+                return .run { send in
+                    let flights = await trackedFlights.flights
+                    await send(.flightsUpdated(flights))
+                }
+                
+            case let .flightsUpdated(flights):
+                state.flights = IdentifiedArray(uniqueElements: flights)
+                return .none
+                
             case let .flightTapped(flight):
                 return .run { send in
                     let isTracked = await self.trackedFlights.flights.contains(flight)
@@ -43,8 +55,10 @@ struct FlightListFeature {
                 )
                 return .none
                 
-            case .destination(.presented(.openDetails)):
-                return .none
+            case .destination(.dismiss):
+                return .run { send in
+                    await send(.updateFlights)
+                }
                 
             case .destination:
                 return .none

@@ -1,7 +1,9 @@
 import Foundation
 
+typealias FlightId = String
+
 struct Flight: Equatable, Identifiable, Hashable {
-    let id: String
+    let id: FlightId
     let lastUpdated: Date
     
     let designator: String

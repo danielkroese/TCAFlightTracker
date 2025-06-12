@@ -25,4 +25,8 @@ actor TrackedFlights: Sendable {
     func untrack(_ flight: Flight) {
         flights.remove(flight)
     }
+    
+    var upcoming: Flight? {
+        flights.sorted { $0.departure.mostActual < $1.departure.mostActual }.first
+    }
 }

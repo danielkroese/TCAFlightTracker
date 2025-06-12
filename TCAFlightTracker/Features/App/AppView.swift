@@ -29,7 +29,7 @@ struct AppView: View {
             }
         }
         .tabViewStyle(.sidebarAdaptable)
-        .tabViewBottomAccessoryCompat(true) {
+        .tabViewBottomAccessoryCompat(store.currentTrackedFlight != nil) {
             Button {
                 store.send(.tabViewBottomAccessoryTapped)
             } label: {
@@ -38,7 +38,12 @@ struct AppView: View {
                     
                     Text("Your upcoming flight")
                 }
+                .foregroundStyle(.primary)
             }
+            .buttonStyle(.plain)
+        }
+        .onAppear {
+            store.send(.onAppear)
         }
     }
 }
@@ -53,9 +58,9 @@ struct AppView: View {
 
 extension View {
     @ViewBuilder func tabViewBottomAccessoryCompat<Content: View>(_ isVisible: Bool, content: () -> Content) -> some View {
-        if isVisible, #available(iOS 26, *) {
+        if #available(iOS 26, *) {
             self.tabViewBottomAccessory {
-                content()
+                if isVisible { content() } else { EmptyView() }
             }
         } else {
             self

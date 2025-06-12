@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB50713E2DF6CA3E00EE4886 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = AB50713D2DF6CA3E00EE4886 /* ComposableArchitecture */; };
 		AB5071432DF6CA5600EE4886 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = AB5071422DF6CA5600EE4886 /* ComposableArchitecture */; };
+		AB9611382DFA32F600EA6D6C /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = AB9611372DFA32F600EA6D6C /* MapboxMaps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +35,22 @@
 		AB5071292DF6C9AB00EE4886 /* TCAFlightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAFlightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB96113A2DFA335600EA6D6C /* Exceptions for "TCAFlightTracker" folder in "TCAFlightTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AB5071112DF6C9A900EE4886 /* TCAFlightTracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AB5071142DF6C9A900EE4886 /* TCAFlightTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB96113A2DFA335600EA6D6C /* Exceptions for "TCAFlightTracker" folder in "TCAFlightTracker" target */,
+			);
 			path = TCAFlightTracker;
 			sourceTree = "<group>";
 		};
@@ -57,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9611382DFA32F600EA6D6C /* MapboxMaps in Frameworks */,
 				AB50713E2DF6CA3E00EE4886 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +135,7 @@
 			name = TCAFlightTracker;
 			packageProductDependencies = (
 				AB50713D2DF6CA3E00EE4886 /* ComposableArchitecture */,
+				AB9611372DFA32F600EA6D6C /* MapboxMaps */,
 			);
 			productName = TCAFlightTracker;
 			productReference = AB5071122DF6C9A900EE4886 /* TCAFlightTracker.app */;
@@ -206,6 +222,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				AB50713C2DF6CA3E00EE4886 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				AB9611362DFA32F600EA6D6C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AB5071132DF6C9A900EE4886 /* Products */;
@@ -411,6 +428,7 @@
 				DEVELOPMENT_TEAM = 35ZPK8FK39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCAFlightTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,6 +460,7 @@
 				DEVELOPMENT_TEAM = 35ZPK8FK39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCAFlightTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -580,6 +599,14 @@
 				minimumVersion = 1.20.2;
 			};
 		};
+		AB9611362DFA32F600EA6D6C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -592,6 +619,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AB50713C2DF6CA3E00EE4886 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		AB9611372DFA32F600EA6D6C /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB9611362DFA32F600EA6D6C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
